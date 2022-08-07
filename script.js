@@ -52,6 +52,8 @@ form.addEventListener('submit', (event) => {
     renderPokemon(input.value.toLowerCase());
 
 });
+
+
 buttonPrev.addEventListener('click', () => {
     if (searchPokemon >1 ) {
     searchPokemon -= 1;
